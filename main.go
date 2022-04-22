@@ -4,11 +4,11 @@ import (
 	"encoding/json"
 	"net/http"
 
-	"github.com/eminetto/curso-go/domain"
-	"github.com/eminetto/curso-go/domain/batizado"
-	"github.com/eminetto/curso-go/domain/churrasco"
 	"github.com/go-chi/chi/v5"
 	"github.com/go-chi/chi/v5/middleware"
+	"github.com/pedroHenriqueMaia/curso-go/domain"
+	"github.com/pedroHenriqueMaia/curso-go/domain/batizado"
+	"github.com/pedroHenriqueMaia/curso-go/domain/churrasco"
 )
 
 func main() {
